@@ -85,17 +85,18 @@ body {
     
 }
 
+
 .about-me-text, .work-text, .contact-text {
     font-size: 35px;
     border-right: solid 4px #445876;
     padding-right: 20px;
-    margin: 50px 100px;
+    margin: 50px 50px;
 }
 
 
-
 .bio-text {
-    margin: 50px -70px; 
+    margin: 50px 50px; 
+    display: flex;
 }
 
 .bio-text p {
@@ -104,6 +105,30 @@ body {
 
 /*Work Content*/
 
+
+.surf-report {
+    background-image: url(../Images/surf-report.jpeg);
+    background-size: cover;
+    border-style: solid;
+    border-color: #92CCCD;
+    border-width: 5px;
+    width: 700px;
+    height: 300px;
+    margin: 50px;
+    
+}
+
+.surf-report-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    padding-right: 5px;
+    background-color: #92CCCD;
+    border: #92CCCD;   
+}
 
 /*Contact Me Section*/
 
