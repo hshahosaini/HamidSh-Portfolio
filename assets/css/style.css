@@ -79,23 +79,45 @@ body {
     background-color: #EDEDF6;
 }
 
-#about-me {
+#about-me, #work, #contact-me {
     display: flex;
     justify-items: flex-end;
     
 }
 
-.about-me-text {
-    font-size: 40px;
+.about-me-text, .work-text, .contact-text {
+    font-size: 35px;
     border-right: solid 4px #445876;
     padding-right: 20px;
     margin: 50px 100px;
 }
 
+
 .bio-text {
-    margin: 50px -60px;
+    margin: 50px -70px; 
 }
 
 .bio-text p {
     line-height: 1.7em;
+}
+
+/*Work Content*/
+
+
+/*Contact Me Section*/
+
+div ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+div ul li {
+    padding: 15px;
+    font-size: 22px;
+}
+
+.contact-info {
+    margin-top: 50px;
 }
