@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #445876;
@@ -60,16 +59,13 @@ header nav ul li {
 
 .hero {
     background-image: url(../Images/cool-background.png);
+    display: flex;
     background-size: cover;
     background-position: 80%;
     padding: 80px;
 }
 
-.subtitle {
-    display: flex;
-    justify-content: flex-end;
-    color: #92CCCD;
-}
+
 /*End Hero Section*/
 
 
@@ -105,29 +101,122 @@ body {
 
 /*Work Content*/
 
+.work-items {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bottom-work-items{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 5px;
+    margin: 50px;
+    margin-top: 5px;
+    margin-right: 60px;
+    margin-left: 50px;
+}
+
+
+.bottom-work-items .LED-wall, .calculator, .pastel-puzzle, .run-buddy {
+    margin: 5px;
+}
 
 .surf-report {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-image: url(../Images/surf-report.jpeg);
     background-size: cover;
     border-style: solid;
     border-color: #92CCCD;
     border-width: 5px;
-    width: 700px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     margin: 50px;
-    
+    margin-bottom: 5px;  
 }
 
 .surf-report-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 50px;
     margin-top: 20px;
-    padding-right: 5px;
     background-color: #92CCCD;
     border: #92CCCD;   
+    
+}
+
+.LED-wall {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../Images/LED-wall.jpeg);
+    background-size: cover;
+    border: #92CCCD solid 5px;
+    width: 385px;
+    height: 200px; 
+}
+
+.LED-wall-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #92CCCD;
+    width: 150px;
+    height: 50px;   
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../Images/calculator.jpeg);
+    background-size: cover;
+    border: #92CCCD solid 5px;
+    width: 385px;
+    height: 200px;
+}
+
+.calculator-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #92CCCD;
+    width: 200px;
+}
+
+.pastel-puzzle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../Images/pastel-puzzles.jpeg);
+    background-size: cover;
+    border: #92CCCD solid 5px;
+    width: 385px;
+    height: 200px;
+}
+
+.pastel-puzzle-text, .run-buddy-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #92CCCD;
+    width: 100px;
+}
+
+.run-buddy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(../Images/run-buddy.jpeg);
+    background-size: cover;
+    border: #92CCCD solid 5px;
+    width: 385px;
+    height: 200px;
 }
 
 /*Contact Me Section*/
@@ -147,3 +236,6 @@ div ul li {
 .contact-info {
     margin-top: 50px;
 }
+
+/*Media Queries*/
+
