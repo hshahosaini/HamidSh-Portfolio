@@ -81,7 +81,6 @@ body {
     
 }
 
-
 .about-me-text, .work-text, .contact-text {
     font-size: 35px;
     border-right: solid 4px #445876;
@@ -89,6 +88,9 @@ body {
     margin: 50px 50px;
 }
 
+.about-me-text, .work-text {
+    margin-left: 100px;
+}
 
 .bio-text {
     margin: 50px 50px; 
@@ -97,6 +99,15 @@ body {
 
 .bio-text p {
     line-height: 1.7em;
+}
+
+.work-text {
+    padding-right: 40px;
+}
+
+.contact-text {
+    width: 200px;
+    margin-right: 50px;
 }
 
 /*Work Content*/
@@ -160,7 +171,7 @@ body {
     background-size: cover;
     border: #92CCCD solid 5px;
     width: 385px;
-    height: 200px; 
+    height: 150px; 
 }
 
 .LED-wall-text {
@@ -180,7 +191,7 @@ body {
     background-size: cover;
     border: #92CCCD solid 5px;
     width: 385px;
-    height: 200px;
+    height: 150px;
 }
 
 .calculator-text {
@@ -198,7 +209,7 @@ body {
     background-size: cover;
     border: #92CCCD solid 5px;
     width: 385px;
-    height: 200px;
+    height: 150px;
 }
 
 .pastel-puzzle-text, .run-buddy-text {
@@ -216,25 +227,48 @@ body {
     background-size: cover;
     border: #92CCCD solid 5px;
     width: 385px;
-    height: 200px;
+    height: 150px;
+}
+
+.run-buddy:hover, .pastel-puzzle:hover, .calculator:hover, .LED-wall:hover, .surf-report:hover{
+    cursor: pointer;
+}
+
+.run-buddy-link {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 /*Contact Me Section*/
 
-div ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    }
-
-div ul li {
-    padding: 15px;
-    font-size: 22px;
-}
-
 .contact-info {
     margin-top: 50px;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.contact-info ul li {
+    list-style: none;
+    margin: 20px;
+    padding: 15px;
+    font-size: 22px;
+    color: #31343D;
+}
+
+.contact-info li {
+    border-bottom: solid;
+    border-color:#445876;
+    border-width: 5px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #31343D;
 }
 
 /*Media Queries*/
