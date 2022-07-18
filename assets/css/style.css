@@ -232,6 +232,7 @@ body {
 
 .run-buddy:hover, .pastel-puzzle:hover, .calculator:hover, .LED-wall:hover, .surf-report:hover{
     cursor: pointer;
+    opacity: 0.9;
 }
 
 .run-buddy-link {
@@ -270,6 +271,3 @@ body {
     text-decoration: none;
     color: #31343D;
 }
-
-/*Media Queries*/
-
